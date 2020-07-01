@@ -1,6 +1,33 @@
 # Bouncy
 Basically a class to make your widgets look like it's bouncing when pressed
 
+![](gif.gif)
+
+## Example
+
+```dart
+ BouncingWidget(
+          duration: Duration(milliseconds: 100),
+          scaleFactor: 1.5,
+          onPressed: () {
+            print("onPressed");
+          },
+          child: Container(
+            padding: EdgeInsets.all(15),
+            decoration: BoxDecoration(
+                color: Colors.white, borderRadius: BorderRadius.circular(30)),
+            child: Text(
+              'tap!',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+              ),
+            ),
+          ),
+        );
+```
+
 ## Bouncy.dart
 
 ```dart
