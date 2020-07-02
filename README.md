@@ -1,5 +1,5 @@
 # Bouncy
-Basically a class to make your widgets look like it's bouncing when pressed
+A class to make your widgets look like it's bouncing when pressed
 
 ![](agif.gif)
 
@@ -176,7 +176,7 @@ class _BouncyState extends State<Bouncy> with SingleTickerProviderStateMixin {
 ## Example
 
 ```dart
- BouncingWidget(
+    Bouncy(
           duration: Duration(milliseconds: 100),
           scaleFactor: 1.5,
           onPressed: () {
